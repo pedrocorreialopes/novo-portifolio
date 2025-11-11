@@ -957,7 +957,34 @@ https://templatemo.com/tm-595-3d-coverflow
             transform: translateY(-5px);
             box-shadow: 0 10px 30px rgba(102, 126, 234, 0.5);
         }
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
 
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    backdrop-filter: blur(3px);
+}
+
+.button:hover {
+    background: #fff;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.button i {
+    margin-right: 8px;
+}
         /* Mobile Responsive */
         @media (max-width: 1024px) {
             .about-main {
