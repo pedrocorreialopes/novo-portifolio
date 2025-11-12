@@ -44,31 +44,31 @@ https://templatemo.com/tm-595-3d-coverflow
         // Image data with titles and descriptions
         const imageData = [
             {
-                title: "Mountain Landscape",
+                title: "Utilitários",
                 description: "Majestic peaks covered in snow during golden hour"
             },
             {
-                title: "Forest Path",
+                title: "Diversos",
                 description: "A winding trail through ancient woodland"
             },
             {
-                title: "Lake Reflection",
+                title: "Educacionais",
                 description: "Serene waters mirroring the surrounding landscape"
             },
             {
-                title: "Ocean Sunset",
+                title: "Sites",
                 description: "Golden hour over endless ocean waves"
             },
             {
-                title: "Desert Dunes",
+                title: "Jogos",
                 description: "Rolling sand dunes under vast blue skies"
             },
             {
-                title: "Starry Night",
+                title: "Portifólios",
                 description: "Countless stars illuminating the dark sky"
             },
             {
-                title: "Waterfall",
+                title: "Todos",
                 description: "Cascading water through lush green forest"
             }
         ];
