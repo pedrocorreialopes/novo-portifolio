@@ -45,31 +45,31 @@ https://templatemo.com/tm-595-3d-coverflow
         const imageData = [
             {
                 title: "Utilitários",
-                description: "Majestic peaks covered in snow during golden hour"
+                description: "Ferramentas práticas criadas para facilitar tarefas do dia a dia. Soluções funcionais e intuitivas que otimizam processos e tornam o uso digital mais eficiente."
             },
             {
                 title: "Diversos",
-                description: "A winding trail through ancient woodland"
+                description: "Projetos experimentais, criativos ou fora de categorias específicas. Um espaço para inovação, testes de conceito e ideias que exploram novas possibilidades."
             },
             {
                 title: "Educacionais",
-                description: "Serene waters mirroring the surrounding landscape"
+                description: "Projetos voltados para o aprendizado e o desenvolvimento de habilidades. Combinação de tecnologia e pedagogia para tornar o ensino mais dinâmico e acessível."
             },
             {
                 title: "Sites",
-                description: "Golden hour over endless ocean waves"
+                description: "Páginas e aplicações web com design moderno e navegação fluida. Projetos pensados para comunicar marcas, produtos e ideias com clareza e impacto visual."
             },
             {
                 title: "Jogos",
-                description: "Rolling sand dunes under vast blue skies"
+                description: "Experiências interativas e envolventes desenvolvidas para entreter, desafiar e surpreender o jogador. Da ideia à jogabilidade, cada projeto busca unir criatividade, design e tecnologia."
             },
             {
                 title: "Portifólios",
-                description: "Countless stars illuminating the dark sky"
+                description: "Coleções de trabalhos desenvolvidas para destacar talentos, marcas e trajetórias. Layouts elegantes e personalizados que valorizam a apresentação profissional."
             },
             {
                 title: "Todos",
-                description: "Cascading water through lush green forest"
+                description: "Explore o conjunto completo de criações — uma visão ampla de todos os projetos, ideias e soluções que refletem o estilo e a versatilidade do portfólio."
             }
         ];
 
