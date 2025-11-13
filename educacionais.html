@@ -1,46 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Pedro Correia</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Portfólio de Pedro Correia Lopes</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <a href="#home" class="logo-container">
-            <div class="logo">
-               <img src="logo.png" width="60" heigth="40">
-            </div>
-            <div class="logo-text">Pedro Correia Desenvolvedor Full Stack</div>
-        </a>
-        
-        <nav class="main-menu" id="mainMenu">
-            <a href="index.html" class="menu-item active">Voltar ao Início</a>
-            
-        </nav>
-        
-        <div class="menu-toggle" id="menuToggle">
-            <span></span>
-            <span></span>
-            <span></span>
+    <header>
+        <div class="container">
+            <h1>Portfólio de Pedro Correia Lopes Filho</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Voltar ao Início</a></li>                    
+                </ul>
+            </nav>
         </div>
     </header>
- <div class="container">
-            <h2>Meus Projetos</h2>
-            <section class="section">
+
+    <section id="intro">
+        <div class="container">
+            <p class="intro-text">Projetos voltados para o aprendizado e o desenvolvimento de habilidades. Combinação de tecnologia e pedagogia para tornar o ensino mais dinâmico e acessível.</p>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h2>Projetos Educacionais</h2>
+            <div class="category">
                 <h3>Plataformas Educacionais</h3>
                 <div class="buttons">
                     <a href="https://plataformadecursosparaempreendedores.rf.gd" class="button" target="_blank"><i class="fas fa-graduation-cap"></i>Plataforma de Cursos</a>
                     <a href="https://pedrocorreialopes.github.io/cursosidosos" class="button" target="_blank"><i class="fas fa-chalkboard-teacher"></i>Cursos para Idosos</a>
                     <a href="https://pedrocorreialopes.github.io/cursoparaidosos"" class="button" target="_blank"><i class="fas fa-universal-access"></i>Site para Idosos</a>
-                </section>
-            </div>
-   
+                </div>
+        </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pedro Correia Lopes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+<script>
+    const sections = document.querySelectorAll("section");
 
-<script src="script.js"></script>
+    function revealOnScroll() {
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < window.innerHeight - 100) {
+                section.classList.add("show");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll();
+</script>
 
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

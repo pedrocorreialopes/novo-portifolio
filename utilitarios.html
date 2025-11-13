@@ -1,35 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Pedro Correia</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Portfólio de Pedro Correia Lopes</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <a href="#home" class="logo-container">
-            <div class="logo">
-               <img src="logo.png" width="60" heigth="40">
-            </div>
-            <div class="logo-text">Pedro Correia Desenvolvedor Full Stack</div>
-        </a>
-        
-        <nav class="main-menu" id="mainMenu">
-            <a href="index.html" class="menu-item active">Voltar ao Início</a>
-            
-        </nav>
-        
-        <div class="menu-toggle" id="menuToggle">
-            <span></span>
-            <span></span>
-            <span></span>
+    <header>
+        <div class="container">
+            <h1>Portfólio de Pedro Correia Lopes Filho</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Voltar ao Início</a></li>                    
+                </ul>
+            </nav>
         </div>
     </header>
 
-   <section class="section">
-                <h3>Utilitários e Projetos Diversos</h3>
+    <section id="intro">
+        <div class="container">
+            <p class="intro-text">Ferramentas práticas criadas para facilitar tarefas do dia a dia. Soluções funcionais e intuitivas que otimizam processos e tornam o uso digital mais eficiente.</p>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h2>Projetos de Apicativos Utilitários</h2>
+            
+            <div class="category">
+                <h3>Utilitários</h3>
                 <div class="buttons">
                     <a href="https://pedrocorreialopes.github.io/aventurasnabiblia/" class="button" target="_blank"><i class="fas fa-language"></i>Aventuras na Bíblia</a>
                     <a href="https://pedrocorreialopes.github.io/calendario/" class="button" target="_blank"><i class="fas fa-calendar"></i>Calendário</a>
@@ -60,10 +62,61 @@
                     <a href="https://pedrocorreialopes.github.io/geradorlistachurrasco" class="button" target="_blank"><i class="fas fa-fire"></i>Gerador de Lista de Churrasco</a>
                     <a href="https://pedrocorreialopes.github.io/listadecompras" class="button" target="_blank"><i class="fas fa-shopping-cart"></i>Gerador de Lista de Compras de Supermercado</a>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-<script src="script.js"></script>
+   
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pedro Correia Lopes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+<script>
+    const sections = document.querySelectorAll("section");
+
+    function revealOnScroll() {
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < window.innerHeight - 100) {
+                section.classList.add("show");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll();
+</script>
 
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
