@@ -1,4 +1,4 @@
-/* === RESET GERAL === */
+um/* === RESET GERAL === */
 * {
     margin: 0;
     padding: 0;
@@ -138,6 +138,7 @@ h3 {
     border-radius:10px;	
 }
 
+
 .button {
     display: flex;
     padding: 12px 20px;
@@ -153,11 +154,11 @@ h3 {
 
 .button2 {
     display: flex;
-    padding: 12px 20px;
+    padding: 10px 18px;
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid #fff;
+    border: 1px rgba(255, 255, 255, 0.05);
     color: #fff;
-    border-radius: 100%;
+    border-radius: 50px;
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 0.95rem;
@@ -173,12 +174,19 @@ h3 {
 .button2:hover {
     background: #fff;
     color: #000;
-    transform: scale(1.05);
+
 }
+
+
 
 .button i {
     margin-right: 8px;
 }
+
+.button2 i {
+    margin-right: 1px;
+}
+
 
 /* === SEÇÃO PROJETOS E LINKS === */
 #projetos .category {
@@ -206,26 +214,34 @@ footer {
         gap: 10px;
     }
 
-    .buttons {
-        flex-direction: column;
+   .buttons {
+        flex-direction: row;
         align-items: center;
     }
 
-    .button {
+
+   .button {
         width: 80%;
         text-align: center;
     }
     .button2 {
-        display: inline-block;
+        text-align: center;
         padding: 12px 20px;
         background: rgba(255, 255, 255, 0.05);
-        border: 1px solid #fff;
+        border: 1px rgba(255, 255, 255 0.05);
         color: #fff;
         border-radius: 50%;
         text-decoration: none;
         transition: all 0.3s ease;
         font-size: 0.95rem;
         backdrop-filter: blur(3px);
+    }
+    .button i {
+        margin-right: 8px;
+    }
+
+    .button2 i {
+        margin-right: 1px;
     }
 
     h2 {
@@ -244,5 +260,6 @@ footer {
         transform: translateY(0);
     }
 }
+
 
 
