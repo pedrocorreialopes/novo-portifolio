@@ -154,9 +154,9 @@ h3 {
 
 .button2 {
     display: flex;
-    padding: 10px 18px;
-    background: transparent;
-    border: 1px transparent;
+    padding: 27px 9px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px rgba(255, 255, 255, 0.05);
     color: #fff;
     border-radius: 50px;
     text-decoration: none;
@@ -174,7 +174,10 @@ h3 {
 .button2:hover {
     background: #fff;
     color: #000;
+
 }
+
+
 
 .button i {
     margin-right: 8px;
@@ -216,15 +219,16 @@ footer {
         align-items: center;
     }
 
+
    .button {
         width: 80%;
         text-align: center;
     }
     .button2 {
         text-align: center;
-        padding: 12px 20px;
-        background: transparent;
-        border: 1px transparent;
+        padding: 27px 9px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px rgba(255, 255, 255 0.05);
         color: #fff;
         border-radius: 50%;
         text-decoration: none;
@@ -256,8 +260,5 @@ footer {
         transform: translateY(0);
     }
 }
-
-
-
 
 
