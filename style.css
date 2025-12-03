@@ -47,6 +47,15 @@ https://templatemo.com/tm-595-3d-coverflow
             background: radial-gradient(ellipse at center, #1a1a2e 0%, #0f0f0f 100%);
         }
 
+	#todos {
+    	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95)),
+                url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&q=80') no-		repeat center/cover;
+    	background-attachment: fixed;
+    	background-size: cover;
+    	background-position: center;
+	padding: 0 40px;
+	}
+
         /* Header Styles */
         .header {
             position: fixed;
@@ -503,7 +512,7 @@ https://templatemo.com/tm-595-3d-coverflow
             text-decoration: none;
             display: inline-block;
         }
-
+	
         .badge:hover {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border-color: transparent;
@@ -1304,3 +1313,60 @@ https://templatemo.com/tm-595-3d-coverflow
                 border-radius: 25px;
             }
         }
+	@media (max-width: 480px){
+    	.logo-text {
+        font-size: 15px;
+        max-width: 150px;
+        line-height: 1.2;
+        }
+      }
+@media (max-width: 480px) {
+    .coverflow-container {
+        perspective: 800px;
+        padding-top: 20px;
+    }
+
+    .coverflow {
+        height: 260px;
+    }
+
+    .coverflow-item {
+        width: 130px;
+        height: 130px;
+    }
+
+    .info h2 {
+        font-size: 18px;
+    }
+
+    .info p {
+        font-size: 12px;
+    }
+
+    .nav-button {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .play-pause-button {
+        width: 40px;
+        height: 40px;
+        bottom: 80px;
+    }
+
+    .dots-container {
+        bottom: 40px;
+    }
+}
+@media (max-width: 1024px) {
+    .coverflow-item {
+        width: 240px;
+        height: 240px;
+    }
+
+    .coverflow {
+        height: 350px;
+    }
+}
+
